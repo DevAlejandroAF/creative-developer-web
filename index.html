@@ -1,35 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Creative Developer</title>
-</head>
-<body>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#services">Service</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <h1>Creative Developer</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fuga laboriosam harum. Assumenda doloribus repellendus non. Cumque, dolores quo nostrum dignissimos deserunt voluptatibus, iusto cum nulla molestias eaque, itaque accusamus.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Syne:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Creative Developer</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-  <img src="src/assets/img/diamond.png" alt="diamond image">
-  <h2>HTML</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi asperiores dolore veritatis dignissimos dolorem cumque dolorum eos quae eveniet debitis maiores eligendi eum qui laborum, iure expedita, voluptate, rem est!</p>
-  <a href="https://wikipedia.com">More about HTML</a>
+    <section id="about" class="about">
+      <div class="empty"></div>
+      <article>
+        <div class="title">
+          <h1>Creative Developer</h1>
+        </div>
+        <div class="description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </article>
+    </section>
 
-  <img src="src/assets/img/triangle.png" alt="diamond image">
-  <h2>CSS</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi asperiores dolore veritatis dignissimos dolorem cumque dolorum eos quae eveniet debitis maiores eligendi eum qui laborum, iure expedita, voluptate, rem est!</p>
-  <a href="https://wikipedia.com">More about HTML</a>
-  
-  <img src="src/assets/img/octagon.png" alt="diamond image">
-  <h2>JS</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi asperiores dolore veritatis dignissimos dolorem cumque dolorum eos quae eveniet debitis maiores eligendi eum qui laborum, iure expedita, voluptate, rem est!</p>
-  <a href="https://wikipedia.com">More about HTML</a>
+    <section id="services" class="service service-html sticky">
+      <article>
+        <figure>
+          <img
+            src="./src/assets/img/diamond.png"
+            alt="diamond image"
+            width="200"
+          />
+        </figure>
+        <div class="text">
+          <h2>HTML</h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit.
+          </p>
+          <a href="https://wikipedia.com">More about HTML</a>
+        </div>
+      </article>
+    </section>
 
-  <a href="mailto:email@email.com">email@email.com</a>
-</body>
+    <section class="service service-css sticky">
+      <article>
+        <figure>
+          <img
+            src="./src/assets/img/triangle.png"
+            alt="triangle image"
+            width="200"
+          />
+        </figure>
+        <div class="text">
+          <h2>CSS</h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit.
+          </p>
+          <a href="https://wikipedia.com">More about CSS</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="service service-js sticky">
+      <article>
+        <figure>
+          <img
+            src="./src/assets/img/octagon.png"
+            alt="octagon image"
+            width="200"
+          />
+        </figure>
+        <div class="text">
+          <h2>JS</h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit.
+          </p>
+          <a href="https://wikipedia.com">More about JS</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="contact full-screen">
+      <a href="mailto:hello@mail.com">hello@mail.com</a>
+    </section>
+  </body>
 </html>
